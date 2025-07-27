@@ -77,7 +77,7 @@ body {
    
 }
 
-.hero-section .hero .para {
+.hero-section .hero .para1, .para3 {
          background: rgb(50, 132, 255);
          min-height: 40px;
          border-radius: 35px;
@@ -88,7 +88,18 @@ body {
          padding: 15px 25px;
          cursor: pointer;      
 }
-
+.para2 {
+    font-size: 20px;
+     background: rgb(50, 132, 255);
+         /* min-height: 40px; */
+         border-radius: 35px;
+         /* font-size: 35px; */
+         width: 250px;
+         color: white;
+         font-weight: bolder;
+         padding: 10px 15px;
+         cursor: pointer;  
+}
 .btn{
     color: blue;
     padding: 12px 25px;
@@ -159,7 +170,9 @@ body {
 }
  
 /* ======== ipad content style ============*/
-
+.ipad-btn {
+    padding: 10px 20px;
+}
 .ipad-content .content-btn-2:hover {
     background-color: #0b5df5;
     color: white;
@@ -169,6 +182,7 @@ body {
      background-color: #0b5df5;
      color: white;
      margin-right: 12px;
+     /* padding: 10px 20px; */
 }
 
 .ipad-content {
@@ -213,9 +227,310 @@ body {
     text-transform: capitalize;  
 }
 
+/* <!--------Collection module --------------> */
+
+.module-content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.module-content .macbook-air {
+    background: linear-gradient(to bottom, #e3eef5, #dbdbdb85);
+}
+
+.module-content .macbook-air,
+.ipad-air,
+.apple-watch,
+.airpods,
+.apple-trade,
+.apple-card {
+    height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.collection-air h1 {
+    font-size: 40px;
+    padding: 30px 0 0 20px;
+
+}
+
+.macbook-air,
+.ipad-air,
+.apple-watch,
+.apple-trade,
+.apple-card p {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.822);
+}
+
+.collection-air .btns {
+    padding: 20px;
+}
+
+.collection-air .macbook-btn-1,
+.ipad-btn-1,
+.apple-watch-btn-1,
+.airpods-btn-1,
+.apple-card-btn-1 {
+    background-color: #0b5df5;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer
+}
+
+.collection-air .macbook-btn-2,
+.ipad-btn-2,
+.apple-btn-2,
+.airpods-btn-2 .apple-card-btn-2 {
+    padding: 10px 13px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.collection-air .macbook-btn-2:hover,
+.ipad-btn-2:hover,
+.apple-watch-btn-2:hover,
+.airpods-btn-2:hover,
+.apple-card-btn-2:hover {
+    background-color: #0b5df5;
+    color: white;
+
+}
+
+.macbook-air img {
+    width: 400px;
+    padding: 20px;
+    height: 220px;
+}
+
+.collection-module .collection-module-para {
+    background: linear-gradient(45deg, #0059ffd8, #ffa600);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 6px rgba(236, 11, 11, 0.329);
+    text-transform: capitalize;
+    padding-top: 15px;
+}
+
+.ipad-air {
+    background: linear-gradient(to bottom, #a6d5f1, #ebeef149);
+}
+
+.ipad-air h1 span {
+    font-style: italic;
+    color: rgb(77, 142, 216);
+}
+
+.ipad-air-img {
+    width: 1200px;
+    height: 220px;
+}
+
+.ipad-air p {
+    padding-top: 10px;
+}
+
+.apple-watch {
+    background-color: #dbdbdb85;
+}
+
+.apple-watch-img {
+    width: 900px;
+    height: 300px;
+    position: absolute;
+    margin-top: 120px
+}
+
+.apple-watch .btns {
+    padding-bottom: 0px;
+}
+
+.module-content .airpods {
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./image/airpods-image.jpg);
+}
+
+.airpods p {
+    color: rgba(255, 255, 255, 0.925);
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.airpods h1 {
+    margin-top: 280px;
+    font: 45px;
+    color: rgba(255, 255, 255, 0.911);
+}
+
+.apple-trade {
+    /* width: 1262px; */
+    height: 500px;
+    background-size: 1262px 580px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./image/iphone-trade-img.jpg);
+}
+.apple-trade img {
+    
+}
+
+.apple-card {
+    height: 500px;
+    background-size: 1262px 580px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./image/apple-card-img.png)
+}
+
+.apple-card p {
+    padding: 10px;
+}
+
+.apple-card .airpode .apple-watch,
+.apple-card-btn-1,
+.airpods-btn-1,
+.apple-watch-btn-1 {
+    margin-right: 10px;
+}
+
+.apple-movie-images {
+    padding: 0 0 10px 10px;
+}
+
+.apple-movie-images img {
+    width: 100%;
+    height: 500px;
+}
 
 
 
+/* footer content style */
+
+.footer-content {
+    background-color: rgb(245, 245, 247);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    padding: 30px;
+}
+
+.footer-content p {
+    width: 950px;
+    color: rgba(0, 0, 0, 0.377);
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.footer-content hr {
+    width: 950px;
+
+}
+
+.footer-content-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 245, 247);
+    gap: 40px;
+}
+
+.footer-content-2 h3 {
+    padding: 10px;
+    font-size: 17px;
+}
+
+.footer-content-2 ul li {
+    list-style: none;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.582);
+    font-size: 13px;
+
+}
+
+.footer-content-2 ul li:hover {
+    text-decoration: underline;
+}
+
+.footer-content-3 {
+    background-color: rgb(245, 245, 247);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-content-3 p {
+    color: rgba(0, 0, 0, 0.582);
+    font-size: 12px;
+    padding: 20px;
+}
+
+.footer-content-3-p-1 {
+    margin-right: 380px;
+}
+
+.footer-content-3 hr {
+    width: 950px;
+}
+
+.footer-content-3 .span-2 {
+    padding-left: 260px;
+}
+
+.footer-content-3 .span-1 {
+    padding-left: 40px;
+}
+
+.footer-content-3 span:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .apple-navbar .nav-links {
+        display: none;
+        flex-direction: column;
+        background-color: black;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        padding: 20px;
+        z-index: 999;
+
+    }
+
+    .apple-navbar {
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .nav-icons {
+        margin-left: 310px;
+    }
+
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .module-content {
+        grid-template-columns: 100%;
+    }
+}
 
 
 
